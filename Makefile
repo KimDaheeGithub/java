@@ -1,4 +1,7 @@
-All: Hello.class Welcome.class Add.class
+All: Hello Welcome Add Add2
+
+Add2: Add2.java
+	javac Add2.java
 
 Hello: Hello.java
 	javac Hello.java
