@@ -1,4 +1,7 @@
-All: Hello Welcome Add Add2 Salary CircleArea
+All: Hello Welcome Add Add2 Salary CircleArea Box
+
+Box: Box.java
+	javac Box.java
 
 CircleArea: CircleArea.java
 	javac CircleArea.java
@@ -19,6 +22,7 @@ Add: Add.java
 	javac Add.java
 
 clean:
+	rm Box.class
 	rm CircleArea.class
 	rm Salary.class
 	rm Add2.class
