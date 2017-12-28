@@ -1,4 +1,7 @@
-All: Hello Welcome Add Add2 Salary CircleArea Box
+All: Hello Welcome Add Add2 Salary CircleArea Box MileToKm
+
+MileToKm: MileToKm.java
+	javac MileToKm.java
 
 Box: Box.java
 	javac Box.java
@@ -22,6 +25,7 @@ Add: Add.java
 	javac Add.java
 
 clean:
+	rm MileToKm.class
 	rm Box.class
 	rm CircleArea.class
 	rm Salary.class
