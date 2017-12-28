@@ -1,4 +1,7 @@
-All: Hello Welcome Add Add2 Salary CircleArea Box MileToKm Receipt
+All: Hello Welcome Add Add2 Salary CircleArea Box MileToKm Receipt Sphere
+
+Sphere: Sphere.java
+	javac Sphere.java
 
 Receipt: Receipt.java
 	javac Receipt.java
@@ -28,6 +31,7 @@ Add: Add.java
 	javac Add.java
 
 clean:
+	rm Sphere.class
 	rm Receipt.class
 	rm MileToKm.class
 	rm Box.class
